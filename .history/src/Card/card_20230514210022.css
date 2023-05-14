@@ -1,0 +1,32 @@
+.card-body {
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+  width: 156px;
+  height: 244px;
+  left: 203px;
+  top: 153px;
+  background-color: red;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.12));
+  border-radius: 8px;
+}
+
+.members,
+.share-members,
+.report {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margi
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 16px;
+}
+
+

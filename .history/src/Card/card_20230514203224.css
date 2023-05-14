@@ -1,0 +1,22 @@
+.card-body {
+    display: flex;
+    flex-direction: column;
+    w
+  }
+  
+  .members,
+  .share-members,
+  .report {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .text {
+    font-size: 16px;
+  }
+  

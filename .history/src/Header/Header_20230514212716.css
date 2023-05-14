@@ -1,0 +1,104 @@
+.header {
+  height: 40%;
+  width: 100%;
+  box-shadow: darkgrey;
+  position: relative;
+}
+
+.trip {
+  padding-top: 20px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20%;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.trip_no {
+  margin-right: auto;
+
+  width: auto;
+  padding: 10px 10px;
+  height: 30px;
+  margin-top: -10px;
+}
+.trip_no h3 {
+  margin-top: -2px;
+}
+
+.edit_icon {
+  margin-right: 20px;
+}
+
+.trip_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  height: 40%;
+}
+
+.travel_data {
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.user_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.user_icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dot_icon {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.horizontal_line {
+  padding-top: 20px;
+}
+.line {
+  border: 1px solid grey;
+  height: 0px;
+  background-color: black;
+}
+
+.date_section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 80px;
+  }
+  
+  .date_line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .date {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  .toggle-card {
+    position: absolute;
+    top: calc(100% - 300px); /* Adjust the top value as needed */
+    left: 50%; /* Adjust the left value to shift the component */
+    transform: translateX(-70%);
+    z-index: 10; 
+  }
+ 
+  
