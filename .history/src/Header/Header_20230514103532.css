@@ -1,0 +1,13 @@
+.header{
+    height: 30%;
+    width: 100%;
+    background-color: red;
+}
+
+.trip{
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

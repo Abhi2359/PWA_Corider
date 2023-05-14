@@ -1,0 +1,27 @@
+.user_chat {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user_img {
+   
+  }
+  
+  .user_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .chat_content {
+    flex-grow: 1;
+  }
+  
+  .user_message p {
+    background-color: #e5e5ea;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+  }
+  
