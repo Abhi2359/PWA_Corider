@@ -1,0 +1,38 @@
+.user_chat{
+    padding: 20px;
+    display: flex;
+}
+
+
+.chat_content{
+    background-color: white;
+    
+    height: 54px;
+}
+.user_message{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* line-height: 18px; */
+
+color: #606060;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0
+}
+
+.user_img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+  }
+  
+  .user_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
